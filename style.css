@@ -221,4 +221,115 @@ background-color:#1DB954 ;
     
 }
 
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+/* Tablet (max-width: 1024px) */
+@media (max-width: 1024px) {
+
+    #box {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #music-container {
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    #song-list {
+        width: 100%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    #music-player {
+        width: 90%;
+        margin: 20px auto;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    #cover {
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+    }
+
+    #cover img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    #volume {
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    #volume-bar {
+        width: 80%;
+    }
+
+    #arrow {
+        bottom: 20px;
+        right: 20px;
+    }
+}
+
+
+/* Mobile (max-width: 600px) */
+@media (max-width: 600px) {
+
+    #navbar {
+        padding: 0 20px;
+    }
+
+    .nav-links {
+        display: none; /* hide nav links on small screens */
+    }
+
+    #music-player {
+        width: 95%;
+        border-radius: 15px;
+    }
+
+    #cover {
+        width: 95%;
+        margin: 15px auto;
+    }
+
+    #songname {
+        font-size: 16px;
+    }
+
+    .backward-play-forward {
+        width: 60px;
+        height: 60px;
+        font-size: 28px;
+    }
+
+    #music-range {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    #songs {
+        padding: 10px;
+    }
+
+    .songItem {
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    #volume-bar {
+        width: 70%;
+    }
+}
+
 
