@@ -52,6 +52,32 @@ const songInfo = [
         name : "Tere Liye",
         img : "https://plus.unsplash.com/premium_photo-1682125853703-896a05629709?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         trackName : "Tere Liye - Lyrical - Prince  Vivek Oberoi  Atif Aslam, Shreya Ghoshal  Hindi Hits Dance Songs.mp3"
+    },
+    {
+        name : "Andaax e Karam",
+        img : "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        trackName : "Andaaz e Karam (Official Video) Madhur Sharma, Moin, ER, Roheb.mp3"
+    },
+
+    {
+        name : "Indila - Love story",
+        img : "https://images.unsplash.com/photo-1471478331149-c72f17e33c73?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        trackName : "Indila - Love Story (Lyrics).mp3"
+    },
+    {
+        name : "Ishqa ve",
+        img : "https://plus.unsplash.com/premium_photo-1682125896993-12a1758b6cb3?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        trackName : "Ishqa Ve Lyrics - Zeeshan Ali  ishqa ve chhaddeya tu kakh da nai saanu.mp3"
+    },
+    {
+        name : "Malang",
+        img : "https://plus.unsplash.com/premium_photo-1682125768864-c80b650614f3?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        trackName : "Malang Song  DHOOM_3  Aamir Khan, Katrina Kaif  Siddharth Mahadevan, Shilpa Rao, Pritam, Sameer.mp3"
+    },
+    {
+        name : "Nede Nede",
+        img : "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        trackName : "Nede Nede - Alisha Chinoy (Lyrics)  Dil kehnda main tenu bola  Yaraan da katchup.mp3"
     }
 
 ]

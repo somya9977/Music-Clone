@@ -5,15 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Music Player</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div id="box">
 
-<div id="music-container">
+    <nav id="navbar">
+    <div class="logo">
+        <i class="fa-solid fa-music"></i>
+        <span>My Music</span>
+    </div>
 
-    <main id="music-player">
+    <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Playlist</a></li>
+        <li><a href="#">Favorites</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+
+    <div class="profile">
+        <i class="fa-solid fa-user"></i>
+    </div>
+</nav>
+
+
+<div id="box">
+
+     <div id="music-container">
+
+        <main id="music-player">
         <div id="cover">
             <img id="cover-image" style="width: 100%; height: 100%; object-fit: cover;" src="https://images.unsplash.com/photo-1494232410401-ad00d5433cfa?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
 
@@ -28,12 +49,19 @@
             <div   class="backward-play-forward"><i id="forward" class="fa-solid fa-forward-step"></i></div>
            
         </div>
- <input id="volume-bar" type="range" value="50">
+ 
+             <span id="volume">
+                <i id="volume-icon" style="color: white; " class="fa-solid fa-volume-high"></i>
+             </span>
+
+               </i><input id="volume-bar" type="range" value="50"> 
+
         
         
         
 
     </main>
+   
 
     <span id="arrow">
         <i class="fa-solid fa-arrow-left"></i>
