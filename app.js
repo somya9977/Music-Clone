@@ -183,3 +183,51 @@ musicRange.addEventListener("input", () => {
 volumeBar.addEventListener("input", () => {
     playSong.volume = volumeBar.value/100
 })
+
+
+window.addEventListener("keydown", (e) => {
+    if(e.code == "ArrowRight")
+    {
+        playSong.pause()
+        currentSongIndex++
+        if(currentSongIndex == songInfo.length)
+        {
+            currentSongIndex = 0
+        }
+        play.innerHTML ='<i class="fa-solid fa-pause"></i>'
+
+        foundSong = songInfo[currentSongIndex]
+        songName.innerText = foundSong.name
+        coverImage.src = foundSong.img
+        playSong.src = `./media/${foundSong.trackName}`
+        playSong.play()
+    }
+    if(e.code == "ArrowLeft")
+    {
+        playSong.pause()
+        currentSongIndex--
+        if(currentSongIndex < 0)
+        {
+            currentSongIndex = songInfo.length-1
+        }
+
+        play.innerHTML ='<i class="fa-solid fa-pause"></i>'
+        foundSong = songInfo[currentSongIndex]
+        songName.innerText = foundSong.name
+        coverImage.src = foundSong.img
+        playSong.src = `./media/${foundSong.trackName}`
+        playSong.play()  
+    }
+    if(e.code == "Space")
+    {
+        e.preventDefault();
+        if (playSong.paused) {
+            playSong.play();
+            play.innerHTML = '<i class="fa-solid fa-pause"></i>';
+        } else {
+            playSong.pause();
+            play.innerHTML = '<i class="fa-solid fa-play"></i>';
+        }
+
+    }
+})
