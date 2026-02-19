@@ -224,6 +224,8 @@ window.addEventListener("keydown", (e) => {
         if (playSong.paused) {
             playSong.play();
             play.innerHTML = '<i class="fa-solid fa-pause"></i>';
+            songName.innerText = foundSong.name
+            coverImage.src = foundSong.img
         } else {
             playSong.pause();
             play.innerHTML = '<i class="fa-solid fa-play"></i>';
