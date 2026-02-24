@@ -1,28 +1,28 @@
-🎵 Music Player Clone
+#  🎵 Music Player Clone
 
 A responsive and interactive Music Player built using HTML, CSS, and JavaScript.
 This project allows users to play, pause, skip, control volume, and navigate through songs smoothly.
 
-🚀 Live Preview
+#  🚀 Live Preview
 
 🔗 Live Demo:
 👉 https://somya9977.github.io/Music-Clone/
 
 (Replace this with your GitHub Pages / Netlify / Vercel link)
 
-📸 Project Preview
+#  📸 Project Preview
 
 (Upload screenshot in your repo and paste its raw link here)
 
 ✨ Features
 
-▶️ Play / Pause functionality
+### ▶️ Play / Pause functionality
 
 ⏭ Next / Previous song navigation
 
 🔊 Volume control slider
 
-⏩ Progress bar tracking
+### ⏩ Progress bar tracking
 
 🎧 Dynamic song info update
 
@@ -30,7 +30,7 @@ This project allows users to play, pause, skip, control volume, and navigate thr
 
 ⌨️ Keyboard controls (Arrow keys support)
 
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 HTML5
 
@@ -40,7 +40,7 @@ JavaScript (Vanilla JS)
 
 Font Awesome (Icons)
 
-📂 Project Structure
+# 📂 Project Structure
 Music-Player-Clone/
 │── index.html
 │── style.css
@@ -48,7 +48,7 @@ Music-Player-Clone/
 │── /songs
 │── /images
 
-⚙️ Installation & Setup
+# ⚙️ Installation & Setup
 
 Clone the repository: https://github.com/somya9977/Music-Clone
 
@@ -62,7 +62,7 @@ cd music-player-clone
 
 Run index.html in your browser.
 
-💡 What I Learned
+# 💡 What I Learned
 
 DOM manipulation
 
@@ -76,7 +76,7 @@ Keyboard event listeners
 
 Volume & progress bar control logic
 
-📌 Future Improvements
+# 📌 Future Improvements
 
 Add playlist feature
 
