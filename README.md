@@ -8,7 +8,7 @@ This project allows users to play, pause, skip, control volume, and navigate thr
 🔗 Live Demo:
 👉 https://somya9977.github.io/Music-Clone/
 
-(Replace this with your GitHub Pages / Netlify / Vercel link)
+
 
 #  📸 Project Preview
 
